@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    color: #454845;
+    font-weight: 700;
+    font-family: 'Montserrat', 'Helvetica', sans-serif;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #button {
+    background-color: rgba(220,220,235,0.5);
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all ease-in-out 0.5s;
+    margin-top: 2rem;
+  }
+  
+  #button:hover {
+    background-color: rgba(220,220,235,0.7);
+    transition: all ease 0.3s;
+  }
+  
+  #output,
+  #button {
+    padding: 1rem;
+  }
+  
+  #output {
+    font-family: "Fira-Mono", monospace;
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+
+  button{
+    border: none;
+  }
